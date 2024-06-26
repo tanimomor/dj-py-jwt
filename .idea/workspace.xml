@@ -5,25 +5,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ef94571-80f4-4d4b-a1da-c5e2f77e06e0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/users/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/comments/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/comments/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/members/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/members/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/members/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/members/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/members/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/members/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/members/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/members/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/members/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/members/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/members/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/members/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/members/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/views.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/teamcollab/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/teamcollab/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/teamcollab/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/teamcollab/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,19 +75,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/tanimo/Documents/Backend/django-jwt",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="teamcollab" type="Python.DjangoServer" factoryName="Django server">
       <module name="teamcollab" />
@@ -93,6 +133,12 @@
       <option name="presentableId" value="Default" />
       <updated>1719164165921</updated>
       <workItem from="1719164167295" duration="680000" />
+      <workItem from="1719227320872" duration="2850000" />
+      <workItem from="1719241234602" duration="6453000" />
+      <workItem from="1719249613124" duration="1061000" />
+      <workItem from="1719285801752" duration="462000" />
+      <workItem from="1719286276018" duration="7164000" />
+      <workItem from="1719406168713" duration="1865000" />
     </task>
     <servers />
   </component>
